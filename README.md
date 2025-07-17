@@ -34,6 +34,3 @@ This project involves designing and deploying a secure email server using an Ubu
 - Fail2Ban to block brute-force login attempts
 - SSL encryption for secure access
 
-## 👥 Collaboration
-
-Developed with Agile-inspired task planning and team feedback during academic simulation.
