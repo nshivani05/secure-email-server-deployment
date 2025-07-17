@@ -25,17 +25,6 @@ This project involves designing and deploying a secure email server using an Ubu
 - IP ban automation for suspicious login attempts
 - Real-time performance monitoring with Netdata
 
-## 📁 Project Structure
-```
-secure-email-server-deployment/
-├── README.md
-├── setup_guide.md
-├── configs/
-│ ├── postfix.conf
-│ ├── dovecot.conf
-│ └── nginx.conf
-├── diagrams/
-│ └── architecture.png
 ```
 
 ## 🛡️ Security Highlights
