@@ -1,10 +1,8 @@
-# Setup Guide – Secure Email Server
+Setup Guide – Secure Email Server
 
 Follow this step-by-step guide to deploy your own secure email server using Ubuntu and open-source tools.
 
----
-
-## 🖥️ 1. Server & Domain Preparation
+1. Server & Domain Preparation
 
 - **Server OS:** Ubuntu 22.04 LTS (64-bit)
 - **Domain:** e.g., `rtrpcyber.xyz`
@@ -12,17 +10,13 @@ Follow this step-by-step guide to deploy your own secure email server using Ubun
 - **Public IP:** Required
 - **SSH Enabled:** Yes
 
----
-
-## 🌐 2. DNS Configuration
+2. DNS Configuration
 
 - **A Record:** Points `mail.rtrpcyber.xyz` → your server's IP
 - **MX Record:** `mail.rtrpcyber.xyz` with priority 10
 - **SPF, DKIM, DMARC:** Add appropriate TXT records
 
----
+3. Connect to Server
 
-## 🧪 3. Connect to Server
-
-```bash
+bash
 ssh root@your_server_ip
