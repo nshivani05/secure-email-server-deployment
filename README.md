@@ -15,6 +15,13 @@ This project involves designing and deploying a secure email server using an Ubu
 - Netdata (System monitoring)
 - DNS records (SPF, DKIM, DMARC)
 - iRedMail (Mail server setup automation)
+## Prerequisites
+Run on Ubuntu 20.04+
+Install the following dependencies manually or via mailserver_packages.txt:
+```
+sudo apt install postfix dovecot-core dovecot-imapd nginx roundcube mariadb-server php php-mysql \
+php-intl php-mbstring php-common php-cli clamav fail2ban netdata openssl spamassassin
+```
 
 ## Features
 
