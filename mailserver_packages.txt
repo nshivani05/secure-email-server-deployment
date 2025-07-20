@@ -1,0 +1,36 @@
+Essential Mail Server Packages:
+postfix
+dovecot-core
+dovecot-imapd
+dovecot-pop3d
+dovecot-lmtpd
+dovecot-mysql
+
+Webmail Interface:
+roundcube
+roundcube-core
+roundcube-mysql
+php
+php-mysql
+php-intl
+php-mbstring
+php-common
+php-cli
+
+Security & Anti-Spam:
+clamav
+clamav-daemon
+spamassassin
+amavisd-new
+fail2ban
+openssl
+
+Reverse Proxy / Web Server:
+nginx
+
+Database:
+mariadb-server
+mariadb-client
+
+Monitoring:
+netdata
