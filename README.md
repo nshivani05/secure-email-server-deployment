@@ -2,7 +2,7 @@
 
 This project involves designing and deploying a secure email server using an Ubuntu-based virtual machine and open-source tools. The setup ensures authenticated email delivery, malware protection, system monitoring, and a webmail interface — all configured in a secure and scalable environment.
 
-## 🔧 Tools & Technologies Used
+## Tools & Technologies Used
 
 - Ubuntu 22.04 LTS (on VM or cloud)
 - Postfix (SMTP server)
@@ -16,7 +16,7 @@ This project involves designing and deploying a secure email server using an Ubu
 - DNS records (SPF, DKIM, DMARC)
 - iRedMail (Mail server setup automation)
 
-## 📊 Features
+## Features
 
 - Secure email sending & receiving with virus and spam filtering
 - Web-based email access via Roundcube
@@ -25,9 +25,7 @@ This project involves designing and deploying a secure email server using an Ubu
 - IP ban automation for suspicious login attempts
 - Real-time performance monitoring with Netdata
 
-```
-
-## 🛡️ Security Highlights
+## Security Highlights
 
 - Authentication: SPF, DKIM, DMARC records
 - Malware scanning with ClamAV
