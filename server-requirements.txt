@@ -1,0 +1,19 @@
+# server-requirements.txt (or setup.sh if you prefer to run as a script)
+postfix
+dovecot-core
+dovecot-imapd
+nginx
+roundcube
+roundcube-core
+mariadb-server
+php
+php-mysql
+php-intl
+php-mbstring
+php-common
+php-cli
+clamav
+fail2ban
+netdata
+openssl
+spamassassin
